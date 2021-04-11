@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700;900&display=swap');
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+:focus {
+	outline: 0
+}
+
+.topNav {
+  position:fixed;
+  top: 0;
+  left: 0;
+  clear: both;
+  z-index: 9999;
+  width: 100%;
+}
+
+/* top social */
+.top-social {
+  width: 100%;
+  display: inline-block;
+  background-color: #790004;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.top-phone, .top-phone a {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.social-div ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social-div ul li {
+  display: inline-block;
+  margin-right: 7px;
+}
+.socail-icons {
+  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px;
+  border-radius: 4px;
+  padding: 7px;
+}
+.facebook {
+  background-color: #3B5998;
+}
+.tripadvisor {
+  background-color: #00af87;
+}
+.instagram {
+  background-color: #dd2a7b;
+}
+.phoneicon {
+  margin-right: 5px;
+  height: 14px;
+}
+/* Navbar */
+.navbar {
+  padding:0;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #b62b2f;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* home slider */
+.homeslider {
+  position: relative;
+  background-color:#333;
+  margin-top: 50px;
+}
+.wave {
+  position: absolute;
+  bottom:-10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9;
+  height: 40px;
+}
+.homeslider .carousel-control-next, .carousel-control-prev {
+  display: none !important;
+}
+.homeslider .carousel-item {
+  position: relative;
+  -webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out
+}
+.homeslider .carousel-item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+.homeslider .carousel-caption {
+  z-index: 999;
+  width: 800px;
+  height: 250px;
+  top:50%;
+  left:50%;
+ -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.homeslider p {
+  margin-bottom: 2px;
+}
+.welcome {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+.res-name {
+  font-weight: 700;
+  font-size: 60px;
+}
+.res-cuisine {
+  font-size: 18px;
+}
+.homeslider .btn {
+  margin-top: 25px;
+}
+/* .homeslider .carousel-indicators {
+  display: none;
+} */
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Footer */
+#site-footer {
+  background: #111;
+}
+#site-footer .footer-nner {
+  padding: 60px 0 30px;
+}
+#site-footer .widget .widget-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 35px;
+  border-bottom: 0;
+  padding: 0;
+}
+#site-footer .footer-menu {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  color: #c6c6c6;
+}
+#site-footer .site-info {
+  border-top: 1px solid #434343;
+  padding: 21px 0;
+  text-align: center;
+}
+#site-footer .site-info .copy-right {
+  margin-bottom: 0;
+  color: #838383;
+  font-size: 14px;
+}
+#site-footer .footer-menu li a, #site-footer .footer-menu li a:hover {
+  color: #c6c6c6;
+}
+
+/* inner banner */
+.inBanner {
+  width: 100%;
+  background: rgba(0, 0, 0, 0) url(/about.jpg) no-repeat scroll center center/cover;
+	background-attachment: fixed;
+  position: relative;
+  padding: 100px 0;
+  margin-top: 150px;
+}
+.inBanner::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, .5);
+}
+.innerH1 {
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+#google-maps {
+  padding:0 !important;
+}
+#google-maps iframe {
+  width: 100%;
+  border: 0;
+}
+
+/* Gallery */
+
+.gallery {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+:root {
+  --gallery-row-height: 100px;
+  --gallery-gap: 1em;
+}
+
+.gallery-grid {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin-bottom: calc(-1 * var(--gallery-gap, 1em));
+  margin-left: calc(-1 * var(--gallery-gap, 1em));
+}
+.gallery-grid:after {
+  content: "";
+  flex-grow: 999999999;
+  min-width: var(--gallery-row-height);
+  height: 0;
+}
+.gallery-grid > * {
+  display: block;
+  height: var(--gallery-row-height);
+  flex-grow: 1;
+  margin-bottom: var(--gallery-gap, 1em);
+  margin-left: var(--gallery-gap, 1em);
+}
+
+@media only screen and (min-width: 768px) {
+  :root {
+    --gallery-row-height: 150px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  :root {
+    --gallery-row-height: 300px;
+  }
+}
+
+
+@media only screen and (min-device-width :320px) and (max-device-width :1024px) {
+  section, .gallery {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .navbar .container {
+    padding:0 15px;
+  }
+  .homeslider {
+      margin-top: 154px;
+  }
+  .wave {
+    height: 15px;
+  }
+  .homeslider .carousel, .homeslider .carousel-item, .homeslider .carousel-item img {
+    height: 220px;
+  }
+  .homeslider .carousel-caption {
+    z-index: 999;
+    width: 320px;
+    height: 210px;
+    top:50%;
+    left:50%;
+   -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .homeslider p {
+    margin-bottom: 2px;
+  }
+  .welcome {
+    font-size: 25px;
+  }
+  .res-name {
+    font-size: 30px;
+  }
+  .res-cuisine {
+    font-size: 16px;
+  }
+  .homeslider .carousel-caption .btn {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    margin-top: 15px;
+  }
+  #site-footer .footer-nner {
+    padding: 40px 0 20px;
+  }
+  #site-footer .widget .widget-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #site-footer .footer-menu {
+    margin-bottom: 25px;
+  }
+  .rateimg {
+    margin-bottom: 25px !important;
+  }
+}
