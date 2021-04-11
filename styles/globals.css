@@ -333,4 +333,11 @@ section {
   .rateimg {
     margin-bottom: 25px !important;
   }
+  .inBanner {
+    padding: 40px 0;
+  }
+  .innerH1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
 }

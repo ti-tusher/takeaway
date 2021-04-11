@@ -36,13 +36,10 @@ const Footer = () => {
 
                         <Col xs={12} md={4}>
                             <div className="footer-widget widget open_close">
-                                <h3 className="widget-title">Today's Opening Hours</h3>
+                                <h3 className="widget-title">Opening Hours</h3>
 
                                 <ul className="footer-menu">
-                                    <li>Saturday: 5:00 PM - 11:00 PM</li>
-                                    <li>
-                                      See more
-                                    </li>
+                                    <li>Monday - Sunday: 5:00 PM - 11:00 PM</li>
                                 </ul>
                             </div>
                         </Col>
