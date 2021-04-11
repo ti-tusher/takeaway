@@ -21,7 +21,7 @@ export default function Home() {
             <Col>
               <h1 className={styles.h1}>Best Indian Takeaway in Henlow Camp, Henlow</h1>
               <h2 className={styles.h2}>Local Indian Takeaway in Henlow Camp, Henlow SG16 serving near Lower Stondon, Shefford SG17, Shillington SG5 & Langford SG18</h2>
-              <img src="/divider.png" alt="divider" className={styles.divider} />
+              <div className={styles.divider}></div>
               <p className={styles.text}>
               Henlow Tandoori, top-ranked Indian takeaway in Henlow Camp, offers you a great selection of innovative & mouthwatering dishes. We are currently serving in Lower Stondon, Shefford, Shillington, Langford and providing many traditional and old favorites that will leave you wanting for more.<br/><br/>
 

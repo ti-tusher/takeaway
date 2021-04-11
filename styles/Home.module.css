@@ -20,9 +20,12 @@
   text-align: center;
 }
 .divider {
-  margin:25px auto;
-  text-align: center;
-  display: block;
+	margin:25px auto;
+	text-align: center;
+	display: block;
+	background: rgba(0, 0, 0, 0) url(/divider.png) no-repeat scroll center center/cover;
+	height: 12px;
+	width: 278px;
 }
 .text {
   color: #333;
