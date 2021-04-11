@@ -123,7 +123,7 @@ body {
   width: 100%;
   height: 100%;
   content: '';
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.55);
   z-index: 2;
 }
 .homeslider .carousel-caption {

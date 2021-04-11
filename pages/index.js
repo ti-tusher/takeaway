@@ -40,7 +40,7 @@ export default function Home() {
         <Row className={`${styles.offer_div} ${styles.top_offer_div}`}>
           <Col className="text-center">
             <div className={styles.offer_img_div}>
-              <img src="/offer1.jpg" className={styles.offer_image} alt="offer"/>
+              <Image src="/offer1.jpg" className={styles.offer_image} alt="offer" width={777} height={430}></Image>
             </div>
             <div className={styles.offer_content}>
               <h4 className={styles.offer_slogun}>
@@ -58,7 +58,7 @@ export default function Home() {
         <Row className={styles.offer_div2}>
           <Col className="text-center">
             <div className={styles.offer_img_div2}>
-              <img src="/offer2.jpg" className={styles.offer_image} alt="offer"/>
+              <Image src="/offer2.jpg" className={styles.offer_image} alt="offer" width={777} height={430}></Image>
             </div>
             <div className={styles.offer_content2}>
               <h4 className={styles.offer_slogun}>
